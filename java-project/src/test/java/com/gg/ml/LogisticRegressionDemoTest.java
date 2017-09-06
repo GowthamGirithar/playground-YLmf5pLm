@@ -2,11 +2,11 @@ package com.gg.ml;
 import org.junit.Test;
 
 
-public class LinearRegressionDemoTest {
+public class LogisticRegressionDemoTest {
 	
 	@Test
 	public void test() throws Exception  {
-		LinearRegressionDemo.process();
+		LogisticRegressionDemo.process();
 	}
 
 }
