@@ -9,7 +9,7 @@ import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 
-public class LogisticsRegressionDemo {
+public class LogisticRegressionDemo {
 
 	/** file names are defined*/
 	public static final String TRAINING_DATA_SET_FILENAME="logistic-train.arff";
