@@ -19,6 +19,7 @@ It requires large sample sizes because maximum likelihood estimates are less pow
 The types of Logistic Regression are ,
 
 1.Ordinal logistic regression
+
 2.Multinomial Logistic regression
 
 # Ordinal logistic regression
@@ -27,5 +28,5 @@ The types of Logistic Regression are ,
 
 # Logistic Regression Demo
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/gg/ml/LogisticRegressionDemo.java"], "command": "com.gg.ml.LogisticRegressionDemoTest#test"})
+@[Logistic Regression]({"stubs": ["src/main/java/com/gg/ml/LogisticRegressionDemo.java"], "command": "com.gg.ml.LogisticRegressionDemoTest#test"})
 
