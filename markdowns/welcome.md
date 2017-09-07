@@ -7,13 +7,11 @@ In my last article , I have explained the liner regression with the sample data 
 
 # Logistic Regression
 
-Logistic regression is used when there are one or more indepedent variables that determine an outcome. The outcome is measured with a dichotomous variable (in which there are only two possible outcomes).
-
-Example: To determine whether we can play or not based on weather data .
+Logistic regression is used when there are one or more indepedent variables that determine an outcome. The outcome is measured with a dichotomous variable (in which there are only two possible outcomes).It requires large sample sizes because maximum likelihood estimates are less powerful at low sample sizes than ordinary least square.
 
 The difference with linear regression is that, linear regression is output is continuous and not limited to number of possible.
 
-It requires large sample sizes because maximum likelihood estimates are less powerful at low sample sizes than ordinary least square
+Example: To determine whether we can play or not based on weather data .
 
 # Types of Logistic Regression
 
@@ -24,6 +22,9 @@ The types of Logistic Regression are ,
 2.Multinomial Logistic regression
 
 # Ordinal logistic regression
+
+If the values of dependent variable is ordinal, then it is called as Ordinal logistic regression. Ordinal regression is used to predict the dependent variable with ‘ordered’ multiple categories and independent variables. 
+
 
 # Multinomial Logistic regression
 
