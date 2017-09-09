@@ -10,7 +10,7 @@ Logistic regression is used when there are one or more independent variables tha
 
 The difference with linear regression is that, linear regression output is continuous and not limited to number of possible.
 
-<B>Example:</B> To determine, whether we can play or not based on weather data logistic regression is used.
+<B>Example :</B> To determine, whether we can play or not based on weather data logistic regression is used.
 
 # Types of Logistic Regression
 
@@ -35,14 +35,14 @@ If the values of dependent variable are ordinal, then it is called as Ordinal lo
 
 Multinomial logistic regression is used to predict a nominal dependent variable given one or more independent variables. It is sometimes considered as extension of binomial logistic regression.
 
-<B> Example:</B>To understand which type of drink consumers prefer based on location in the US and age. The dependent variables would be type of the drink (Coffee, Soft Drink, Tea and Water) and the independent variables would be the nominal variable, location in US and the age (in years).
+<B> Example : </B>To understand which type of drink consumers prefer based on location in the US and age. The dependent variables would be type of the drink (Coffee, Soft Drink, Tea and Water) and the independent variables would be the nominal variable, location in US and the age (in years).
 
 
 # Binomial Logistic regression
 
 A binomial logistic regression, predicts the probability that an observation falls into one of two categories of a dichotomous dependent variable based on one or more independent variables that can be either continuous or categorical. This is often called as simple logistic regression.
 
-<B> Example: </B>Let us predict, whether students will pass or not (i.e. The dependent variables are Pass and Fail.) in their final exam based on the internal marks , assignment submission and few other independent variables. 
+<B> Example : </B>Let us predict, whether students will pass or not (i.e. The dependent variables are Pass and Fail.) in their final exam based on the internal marks , assignment submission and few other independent variables. 
 
 
 # Sample Training and Testing Data
