@@ -45,7 +45,8 @@ Example:Let us predict , whether students will pass or not (i.e.,The dependent v
 
 ## Sample Training and Testing Data
 
-  ![Train Diagram](LOGISTIC_TRAIN.PNG)     ![Test Diagram](LOGISTICTEST.PNG)
+ <B> Training Data </B> ![Train Diagram](LOGISTIC_TRAIN.PNG)     
+ <B> Testing Data </B> ![Test Diagram](LOGISTICTEST.PNG)
 
 <B> Notes </B>
 
@@ -57,3 +58,16 @@ An ARFF (Attribute-Relation File Format) file is an ASCII text file that describ
 
 # Explanation
 
+1. The logistic regression outputs probabilities based on the following equation:
+
+logit(pi)=log(pi/(1−pi))=β0+β1x1+...+βkxk
+
+the coefficients refer to each βi.
+2. Odds ratios are simply the exponential of the weights
+i.e.,The first coefficient you have is outlook=sunny: -3.5821 . Calculatation of exp⁡(-3.5821) gives 0.0278 that is the corresponding value in the odds ratio table.
+log(Odds(outlook=sunny)/Odds(outlook=¬sunny))
+
+<B> It will also displays the correctly classified istances and incorrectly classified instances. With that data , we can understand the accuracy of the algorithm with the datasets that we have.</B>
+
+Note:
+Next article, I will focus on next algorithm with an example and also how to use weka lib.
