@@ -12,9 +12,9 @@ import weka.core.converters.ArffLoader;
 public class LogisticRegressionDemo {
 
 	/** file names are defined*/
-	public static final String TRAINING_DATA_SET_FILENAME="logistic-train.arff";
-	public static final String TESTING_DATA_SET_FILENAME="logistic-train.arff";
-	public static final String PREDICTION_DATA_SET_FILENAME="test-confused.arff";
+	public static final String TRAINING_DATA_SET_FILENAME="weather.nominal.arff";
+	public static final String TESTING_DATA_SET_FILENAME="weather.nominal .test.arff";
+	public static final String PREDICTION_DATA_SET_FILENAME="weather.nominal-confused.arff";
 
 	/**
 	 * This method is to load the data set.
@@ -67,10 +67,10 @@ public class LogisticRegressionDemo {
 		System.out.print(" the expression for the input data as per alogorithm is ");
 		System.out.println(classifier);
 
-		/*Instance predicationDataSet = getDataSet(PREDICTION_DATA_SET_FILENAME).lastInstance();
-		double value = classifier.classifyInstance(predicationDataSet);*/
-		/** Prediction Output */
-		//System.out.println(value);
+		Instance predicationDataSet = getDataSet(PREDICTION_DATA_SET_FILENAME).lastInstance();
+		double value = classifier.classifyInstance(predicationDataSet);
+		/** Prediction Output 
+		System.out.println(value);
 	}
 
 }
