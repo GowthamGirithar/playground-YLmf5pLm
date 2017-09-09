@@ -17,11 +17,11 @@ Example: To determine whether we can play or not based on weather data .
 
 The types of Logistic Regression are ,
 
-1.Ordinal logistic regression
+1.<B>Ordinal logistic regression</B>
 
-2.Multinomial Logistic regression
+2.<B>Multinomial Logistic regression</B>
 
-3.Binomial Logistic regression.
+3.<B>Binomial Logistic regression </B>
 
 # Ordinal logistic regression
 
@@ -47,15 +47,19 @@ Example:Let us predict , whether students will pass or not (i.e.,The dependent v
 
 <B> Training Data </B>  
 
-![Train Diagram](LOGISTICTRAIN.PNG)     
+![Train Diagram](LOGISTIC_TRAIN.PNG)     
 
 <B> Testing Data </B>
 
-![Test Diagram](LOGISTIC_TEST.PNG)
+![Test Diagram](LOGISTICTEST.PNG.PNG)
 
+<B> Notes </B>
 
+An ARFF (Attribute-Relation File Format) file is an ASCII text file that describes a list of instances sharing a set of attributes. ARFF files were developed by the Machine Learning Project for the purpose of Weka machine learning software.
 
 # Logistic Regression Demo
 
 @[Logistic Regression]({"stubs": ["src/main/java/com/gg/ml/LogisticRegressionDemo.java"], "command": "com.gg.ml.LogisticRegressionDemoTest#test"})
+
+# Explanation
 
