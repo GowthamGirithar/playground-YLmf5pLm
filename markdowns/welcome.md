@@ -43,6 +43,18 @@ A binomial logistic regression, predicts the probability that an observation fal
 
 Example:Let us predict , whether students will pass or not (i.e.,The dependent variables are Pass and Fail .) in their final exam based on the internal marks , assignment submission and few other independent variables. 
 
+## Sample Training and Testing Data
+
+<B> Training Data </B>  
+
+![Train Diagram](LOGISTICTRAIN.PNG)     
+
+<B> Testing Data </B>
+
+![Test Diagram](LOGISTIC_TEST.PNG)
+
+
+
 # Logistic Regression Demo
 
 @[Logistic Regression]({"stubs": ["src/main/java/com/gg/ml/LogisticRegressionDemo.java"], "command": "com.gg.ml.LogisticRegressionDemoTest#test"})
