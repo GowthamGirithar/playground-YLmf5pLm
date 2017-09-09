@@ -69,7 +69,7 @@ public class LogisticRegressionDemo {
 
 		Instance predicationDataSet = getDataSet(PREDICTION_DATA_SET_FILENAME).lastInstance();
 		double value = classifier.classifyInstance(predicationDataSet);
-		/** Prediction Output 
+		/** Prediction Output */
 		System.out.println(value);
 	}
 
