@@ -45,13 +45,7 @@ Example:Let us predict , whether students will pass or not (i.e.,The dependent v
 
 ## Sample Training and Testing Data
 
-<B> Training Data </B>  ![Train Diagram](LOGISTIC_TRAIN.PNG)  
-
-
-
-<B> Testing Data </B>    ![Test Diagram](LOGISTICTEST.PNG.PNG)
-
-
+  ![Train Diagram](LOGISTIC_TRAIN.PNG)     ![Test Diagram](LOGISTICTEST.PNG.PNG)
 
 <B> Notes </B>
 
