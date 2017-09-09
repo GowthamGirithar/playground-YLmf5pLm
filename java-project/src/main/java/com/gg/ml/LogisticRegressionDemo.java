@@ -31,7 +31,7 @@ public class LogisticRegressionDemo {
 		ArffLoader loader = new ArffLoader();
 		//loader.setFile(new File(fileName));
 		/** load the traing data */
-		loader.setSource(LinearRegressionDemo.class.getResourceAsStream("/" + fileName));
+		loader.setSource(LogisticRegressionDemo.class.getResourceAsStream("/" + fileName));
 		/**
 		 * we can also set the file like loader3.setFile(new
 		 * File("test-confused.arff"));
