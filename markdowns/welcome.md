@@ -2,7 +2,7 @@
 
 Regression analysis is a predictive modelling technique, which is used to investigate the relationship between the dependent and independent variable(s). It is the important tool for modelling and analyzing the data. From the data points, we draw the curve or the line and we try to fit it in such a manner that the differences between the distance between the data points to the curve or line is minimal.
 
-In my [last article] (https://tech.io/playgrounds/3771/machine-learning-with-java---part-1-linear-regression), I have explained the linear regression with the sample data points. This article focuses on the Logistic regressions and its types with simple example.
+In my [last article](https://tech.io/playgrounds/3771/machine-learning-with-java---part-1-linear-regression), I have explained the linear regression with the sample data points. This article focuses on the Logistic regressions and its types with simple example.
 
 # Logistic Regression
 
