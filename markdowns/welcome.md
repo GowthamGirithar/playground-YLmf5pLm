@@ -2,7 +2,7 @@
 
 Regression analysis is a predictive modelling technique which is used to investigate the relationship between the dependent and indepedent variable(s).It is the important tool for modelling and analysing the data.From the data points we draw the curve or the line and we try to fit it in such a manner that the difference  between the distance between the data points to the curve or line is minimal.
 
-In my last article , I have explained the liner regression with the sample data points. This article focuses on the Logistic regressions.
+In my [last article](https://tech.io/playgrounds/3771/machine-learning-with-java---part-1-linear-regression) , I have explained the liner regression with the sample data points. This article focuses on the Logistic regressions.
 
 
 # Logistic Regression
@@ -43,7 +43,7 @@ A binomial logistic regression, predicts the probability that an observation fal
 
 Example:Let us predict , whether students will pass or not (i.e.,The dependent variables are Pass and Fail .) in their final exam based on the internal marks , assignment submission and few other independent variables. 
 
-## Sample Training and Testing Data
+# Sample Training and Testing Data
 
  <B> Training Data </B> ![Train Diagram](LOGISTIC_TRAIN.PNG)     
  <B> Testing Data </B> ![Test Diagram](LOGISTICTEST.PNG)
@@ -63,11 +63,14 @@ An ARFF (Attribute-Relation File Format) file is an ASCII text file that describ
 logit(pi)=log(pi/(1−pi))=β0+β1x1+...+βkxk
 
 the coefficients refer to each βi.
+
 2. Odds ratios are simply the exponential of the weights
 i.e.,The first coefficient you have is outlook=sunny: -3.5821 . Calculatation of exp⁡(-3.5821) gives 0.0278 that is the corresponding value in the odds ratio table.
 log(Odds(outlook=sunny)/Odds(outlook=¬sunny))
 
+
 <B> It will also displays the correctly classified istances and incorrectly classified instances. With that data , we can understand the accuracy of the algorithm with the datasets that we have.</B>
+
 
 Note:
 Next article, I will focus on next algorithm with an example and also how to use weka lib.
